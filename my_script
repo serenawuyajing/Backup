@@ -1,0 +1,5 @@
+#! /bin/bash
+do
+done
+for file in `ls`
+  `sort -n -k 1 --temporary-directory=/raid6/sorttmp $file > /raid6/valueFiles/$file`
